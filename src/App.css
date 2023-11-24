@@ -1,38 +1,212 @@
-.App {
-  text-align: center;
+.App{
+  width: 100%;
+  height: 100vh;
+  display: flex;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left{
+  width: 7%;
+  height: 100vh;
+  background-color: gray;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right{
+  width: 93%;
+  height: 100vh;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top{
+  margin-top: 1px;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-left{
+  display: flex;
+  align-items: center;
+}
+
+.top-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-top{
+  height: 70vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-bottom{
+  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  color: rgb(55, 54, 54);
+}
+
+.icon:hover{
+  color: black;
+}
+
+.heading{
+  margin-left: 3vh;
+}
+
+.sub-heading{
+  margin-left: 20px;
+  margin-right: 10px;
+ 
+}
+
+
+.navbar{
+ 
+  height: 7vh;
+  display: flex;
+  padding-left: 2%;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px rgb(71, 39, 39);
+  padding-right: 14%;
+  border-radius: 20px;
+  background-color: rgb(213, 208, 208);
+}
+
+.navbar-icon{
+  height: 20px;
+  width: 20px;
+ padding-right: 8px;
+}
+
+.navbar-items{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 13%;
+  height: 35px;
+  color: rgb(69, 64, 64);
+
+}
+
+.navbar-items:hover{
+  background-color: aliceblue;
+  color: black;
+  border-radius: 20px;
+}
+
+.navbar-icon{
+  margin-right: 7px;
+}
+
+.main-container{
+  width: 100%;
+  display: flex;
+  width: 100%;
+}
+
+.details{
+  width: 20%;
+}
+
+.girl{
+  width: 100%;
+  height: 25vh;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.teacher{
+  width: 100%;
+  height: 25vh;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 2vh;
+}
+
+.logo{
+  width: 22px;
+  height: 22px;
+  margin-top: 6px;
+}
+
+.icon-container{
+  display: flex;
+  margin-top: 2vh;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.icon-box{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px;
+
+}
+
+.icon-box:hover{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
+  background-color: rgb(11, 108, 140);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.vedio-container{
+  margin-top: 2vh;
+  width: 100%;
+  margin-left: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.vedio{
+  height: 75vh;
+  width: 100%;
+}
+
+.profile{
+  width: 50px;
+  height: 50px;
+}
+
+.name1{
+  margin-top: -50px;
+  width: 60px;
+  height: 30px;
+}
+
+.name2{
+  margin-top: -60px;
+  width: 60px;
+  height: 30px;
+}
+
+.icon-container1{
+  display: flex;
+  padding-right: 36%;
+  margin-top: 10px;
+  justify-content: space-between;
 }
